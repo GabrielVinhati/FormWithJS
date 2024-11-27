@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <H1>ENVIE SEU EMAIL</H1>
+        <p>Central de Emails</p>
+        
+
+            <form id="idForm">
+                <input type="text" placeholder="Seu nome:" required id="seuNome">
+                <p class="error-message"> O nome precisa ser completo! </p>
+                <input type="email" placeholder="Seu email:" id="seuEmail">
+                <input type="email" placeholder="Email do destinatário:" id="emailDestinatario">
+                <textarea placeholder="Mensagem:" id="descricao"></textarea>
+                <button type="submit" id="enviar">Enviar</button>
+            </form>
+            <p class="success-message"></p>
+       
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
